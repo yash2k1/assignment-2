@@ -1,0 +1,28 @@
+:root{
+    --primaryColor:#a181fc;
+    --SecondaryColor:#c4d4ff;
+}
+.hover:hover{
+    cursor: pointer;
+}
+h1{
+    width: fit-content;
+    margin:auto;
+    font-size: 40px;
+}
+h1>hr{
+    background: #000dff;
+    margin-top: 0;
+    width: 50%;
+    height: 4px;
+    
+}
+.anchor{
+        scroll-margin-top: 80px !important; 
+    /* // 70px is the offset value */
+ }
+ #categories,
+ #services,
+ #arival{
+    padding-top: 70px;
+ }

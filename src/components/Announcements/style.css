@@ -1,0 +1,23 @@
+.bgImg,
+.react-parallax-background-children,
+ .custom-bg{
+    width: 100% !important;
+    object-fit: cover !important;
+}
+.react-parallax-content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 40px;
+}
+.parallaxView{
+    height: 300px;
+}
+@media (max-width:500px) {
+    .parallaxView{
+        height: fit-content;
+    }
+    
+}
