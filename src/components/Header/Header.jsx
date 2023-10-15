@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import './HeaderStyle.css'
-import Navbar from '../navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 import headerBg from "../../assets/header-bg.svg"
 import Carousel from "../Main Image Slider/Carousel"
 import {sliderData} from '../SliderData'

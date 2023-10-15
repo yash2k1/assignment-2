@@ -51,9 +51,7 @@ useEffect(()=>{
    setNavigationBtnId("openNavigationBtnId");},1000);
 console.log("closeNavigationBtnId")  
 setNavigationBtnId("closeNavigationBtnId");
-  // }else{
-  //   console.log("openNavigationBtnId")
-  //   setNavigationBtnId("openNavigationBtnId");
+  setNavigationBtnId("openNavigationBtnId");
   }
 },[navigationBtn])
   return (
