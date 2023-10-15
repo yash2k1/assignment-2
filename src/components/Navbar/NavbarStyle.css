@@ -116,7 +116,8 @@ body {
   }
   .resposiveNavbarLogoText {
     display: inline-block;
-    color: #f40b51;
+    color: #f40bcd;
+    /* color: #f40b51; */
   }
   .hideNavLogo {
     display: none;
@@ -126,6 +127,10 @@ body {
     margin-left: 30px;
   }
   /* -------------nav btn------------- */
+  .openHamburgerLogo:hover,
+  .closeNavigationBtn:hover{
+    cursor: pointer;
+  }
   .closeNavigationBtn {
     position: absolute;
     /* left:0%; */
@@ -136,9 +141,8 @@ body {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: rgba(255, 255, 255, 0.4);
-    
-    /* animation:slideClose 0.5s ease-in 0s 1 reverse; */
+    background: var(--primaryColor);
+    animation:slideClose 0.5s ease-in 0s 1 reverse;
   }
   #closeNavigationBtnId{
     animation:slideClose 0.5s ease-in 0s 1 reverse;
@@ -156,10 +160,19 @@ body {
     top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     align-items: center;
-    background: rgba(255, 255, 255, 0.4);
+    background: var(--primaryColor);
+    /* background: rgba(255, 255, 255, 0.4); */
     animation: slide 0.5s ease-in 0s 1 reverse forwards;
+  }
+  .openNavigationBtn>a:hover{
+    background: var(--SecondaryColor);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   @keyframes slide {
     100% {
@@ -195,11 +208,16 @@ body {
     /* background: #fe6e6e; */
     margin-right: 40px;
   }
+  .closeHamburgerLogo:hover,
+  .openHamburgerLogo:hover {
+ cursor: pointer;
+  }
   .hamburgerStrip1,
   .hamburgerStrip2,
   .hamburgerStrip3 {
     display: inline-block;
-    background: #f40b51;
+    background: #f40bcd;
+    /* background: #f40b51; */
     height: 5px;
     width: 33px;
   }

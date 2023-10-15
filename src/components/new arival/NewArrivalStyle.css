@@ -48,6 +48,7 @@ opacity: 0.8;
     text-align: center;
     transition: all 1s;
 }
+
 @media (max-width:450px) {
     .newArrivalDes{
         display: none;

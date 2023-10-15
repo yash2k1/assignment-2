@@ -26,3 +26,13 @@ h1>hr{
  #arival{
     padding-top: 70px;
  }
+ @media (max-width: 550px) {
+    #categories,
+    #services,
+    #arival{
+       padding-top: 40px;
+    }
+    .varieties {
+        margin: 0 auto;
+    }
+}
