@@ -29,7 +29,7 @@ const Wrapper = () => {
   ]
   return (
     <div id="services" >
-    <h1 >services <hr /></h1>
+    <h1>SERVICES <hr/></h1>
         <div className='wrapperContainer'>
           {data.map((val, index) => {
             return (

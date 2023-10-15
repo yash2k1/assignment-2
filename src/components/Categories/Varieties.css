@@ -58,6 +58,7 @@
     overflow: hidden;
     border: 1px solid white;
     background-color: var(--SecondaryColor);
+    border-radius: 10px;
 }
 .varietiesBtn:hover{
     cursor: pointer;
@@ -68,6 +69,7 @@
 }
 .varietiesBrnText {
     color: white;
+    
 }
 .varietiesBtn:hover>.varietiesBrnText {
   color:rgb(0, 0, 0);
@@ -79,6 +81,7 @@
     height: 100%;
     background: var(--primaryColor);
     transition: transform 0.5s;
+   
 }
 .varietiesBrnText{
 font-size: 16px;

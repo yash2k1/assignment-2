@@ -24,7 +24,7 @@ const Announcements = () => (
       <div style={{ height: '200px' }} />
     </Parallax> */}
     <Parallax className="parallaxView" strength={300} >
-      <div>Get you fit today</div>
+      <div>Get your fit today</div>
       <Background style={{height:"700px"}}  className="custom-bg">
         <img className='bgImg' src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hvZXN8ZW58MHwwfDB8fHww&auto=format&fit=crop&w=500&q=60" alt="fill murray" />
       </Background>

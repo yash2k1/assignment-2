@@ -57,10 +57,11 @@ body {
   width: 60%;
   display: flex;
   justify-content: space-around;
+  text-transform: capitalize;
 }
 
 .navBtn {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -135,13 +136,14 @@ body {
     position: absolute;
     /* left:0%; */
     left: 100%;
-    top: 50px;
+    top: 40px;
     /* display: flex; */
     display: none;
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: var(--primaryColor);
+    /* background: var(--primaryColor); */
+    background: rgb(255, 255, 255);
     animation:slideClose 0.5s ease-in 0s 1 reverse;
   }
   #closeNavigationBtnId{
@@ -151,20 +153,20 @@ body {
   @keyframes slideClose {
     100% {
       left: 0%;
-      top: 50px;
+      top: 40px;
     }
   }
   .openNavigationBtn {
     position: absolute;
     left: 0;
-    top: 50px;
+    top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     align-items: center;
-    background: var(--primaryColor);
-    /* background: rgba(255, 255, 255, 0.4); */
+    /* background: var(--primaryColor); */
+    background: rgb(255, 255, 255);
     animation: slide 0.5s ease-in 0s 1 reverse forwards;
   }
   .openNavigationBtn>a:hover{
@@ -177,7 +179,7 @@ body {
   @keyframes slide {
     100% {
       left: 100%;
-      top: 50px;
+      top:40px;
     }
   }
   .navBtn {
